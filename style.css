@@ -2,9 +2,19 @@ body{
     background-color:#000066;
     color:white;
     text-align:center;
-    font-family:"Press Start 2P"
 }
-
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:60px;
+}
+h2{
+   font-family: 'Dancing Script', cursive;
+   font-size:20px;
+}
+h4{
+    font-family: 'EB Garamond', serif;
+    font-size:20px;
+}
 span{
     font-size:20px;
     font-style:italic;
@@ -14,15 +24,16 @@ strong{
     color:red;
 }
 img{
-    width:20%;
+    
     max-width:70%;
     border-radius:50%;
-    border:20px;
     margin-bottom:20px;
 }
 #man{
+    width:200px;
     float:right;
 }
 #flying{
+    width:250px;
     float:left;
 }
