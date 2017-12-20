@@ -24,16 +24,24 @@ strong{
     color:red;
 }
 img{
+<<<<<<< HEAD
     margin:20px; 
+>>>>>>> 1fe0d4a0655f06cc42d59503bbf97682cfad38a8
     max-width:70%;
     border-radius:50%;
     margin-bottom:20px;
 }
 #man{
+    width:200px;
     float:right;
     width:250px;
 }
 #flying{
+    width:250px;
     float:left;
+<<<<<<< HEAD
     width:250px;
 }
+=======
+}
+>>>>>>> 1fe0d4a0655f06cc42d59503bbf97682cfad38a8
