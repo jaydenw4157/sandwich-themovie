@@ -54,11 +54,13 @@ img{
     transform: rotate(-30deg);
 }
 p{
-    width: 500px;
+    width:500px;
     height: 100px;   
-    transition: width 2s, height 4s;
+    color:teal;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
 }
 div:hover {
-    width: 300px;
-    height: 300px;
+    width:100px;
 }
