@@ -2,14 +2,29 @@ body{
     background-color:#000066;
     color:white;
     text-align:center;
+    animation:example 10s linear 2s infinite normal;
 }
-h1{
+@keyframes example{
+    0% {opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+}
+.header{
+    background:linear-gradient(navy,teal,yellow);
+    border: 8px double green;
+}
+h1,h2{
     font-family: 'Dancing Script', cursive;
-    font-size:60px;
+    font-size:50px;
+    text-shadow: 5px 5px 5px aqua;
+    animation: thing 4s ease-in-out 6s infinite normal;
+    border: 10px solid transparent;
+    
 }
-h2{
-   font-family: 'Dancing Script', cursive;
-   font-size:20px;
+@keyframes thing{
+    0% {opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
 }
 h4{
     font-family: 'EB Garamond', serif;
@@ -24,9 +39,6 @@ strong{
     color:red;
 }
 img{
-<<<<<<< HEAD
-    margin:20px; 
->>>>>>> 1fe0d4a0655f06cc42d59503bbf97682cfad38a8
     max-width:70%;
     border-radius:50%;
     margin-bottom:20px;
@@ -34,14 +46,19 @@ img{
 #man{
     width:200px;
     float:right;
-    width:250px;
+    transform: rotate(30deg);
 }
 #flying{
     width:250px;
     float:left;
-<<<<<<< HEAD
-    width:250px;
+    transform: rotate(-30deg);
 }
-=======
+p{
+    width: 500px;
+    height: 100px;   
+    transition: width 2s, height 4s;
 }
->>>>>>> 1fe0d4a0655f06cc42d59503bbf97682cfad38a8
+div:hover {
+    width: 300px;
+    height: 300px;
+}
